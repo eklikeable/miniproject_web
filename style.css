@@ -1,0 +1,198 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/* Nav */
+nav {
+  background-color: #ffffff;
+  height: 70px;
+}
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.topmenu {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+.topmenu a {
+  border-style: none;
+  margin: 0px;
+  padding: 10px 30px;
+  color: black;
+}
+.topRightMenu {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  display: inline-block;
+}
+.topRightMenu a {
+  border: 1px solid black;
+  margin: 0px;
+  padding: 10px 30px;
+}
+
+/*Header*/
+header {
+  background-color: #f8f8f8;
+  height: 460px;
+  position: relative;
+}
+header img {
+  width: 600px;
+  position: absolute;
+  bottom: 0px;
+}
+.headerText {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  text-align: center;
+}
+.headerText h1 {
+  line-height: 150%;
+}
+#blueBtn {
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  background-color: #0166ff;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+}
+/* Main */
+/* session 1 */
+#howItWorks {
+  background-color: #f8f4ef;
+  height: 480px;
+
+}
+
+.boxall {
+  align-content: center;
+
+}
+.box {
+  border-style: none;
+  background-color: #fff;
+  width: 230px;
+  height: 250px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  display: inline-block;
+}
+.title {
+  font-weight: bold;
+}
+/* session 2 */
+#becomeTutor {
+  background-color: #f8f4ef;
+  height: 350px;
+  position: relative;
+  align-content: center;
+}
+.becomeLeft {
+  width: 480px;
+  align-items: center;
+  position:absolute;
+  top: 15%;
+  left: 15%;
+  
+}
+.becomeImg {
+  position: absolute;
+  top: 15%;
+  right: 0px;
+  width: 600px;
+  height: 250px;
+  background-image: url('images/main2.png');
+  background-size: 600px;
+  background-position: 100% 30%;
+  border-radius: 10% 0 0 10%;
+}
+/* session 3 : FAQs */
+
+#faq {
+  background-color: #f8f8f8;
+  height: 100vh;
+  margin-top: 0px;
+}
+.faq-inner {
+  width: 750px;
+  margin: auto;
+}
+.faq-inner h1 {
+  text-align: center;
+  margin-top: 0;
+}
+.accordion {}
+.accordion-item {
+  background-color: #f8f8f8;
+  padding: 15px 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.2);
+  margin-bottom: 16px;
+}
+.accordion-item .title {
+  cursor: pointer;
+  /* padding-bottom: 15px; */
+}
+.accordion-item .title:after {
+  font-family: FontAwesome;
+  content: \f107;
+  float: right;
+  margin-top: 4px;
+}
+.accordion-item .title.active:after {
+  transform: rotateX(180deg)
+}
+.accordion-item .title.active {
+  padding-bottom: 15px;
+}
+.accordion-item .content {
+  border-top: 1px solid #000;
+  font-size: 16px;
+  padding-top: 15px;
+  display: none;
+}
+.morefaq{
+  color: #0166ff;
+  background-color: transparent;
+  border-color: #0166ff;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* footer */
+footer {
+  background-color: #273343;
+  height: 300px;
+
+}
+footer div {
+  margin: 30px 0px 0px 70px;
+  width: 200px;
+  display: inline-block;
+  align-items: center;
+  vertical-align: top;
+}
+footer a {
+  color: white;
+}
+
