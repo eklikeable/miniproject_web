@@ -1,10 +1,10 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat&family=Noto+Sans:wght@300&family=Plus+Jakarta+Sans:wght@300&family=Roboto&display=swap');
 
 body {
   margin: 0 auto;
   line-height: 1.6em;
   width: 100%;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 a {
   text-decoration: none;
@@ -13,11 +13,13 @@ a {
 nav {
   background-color: #ffffff;
   height: 70px;
+  display: flex;
+  align-items: baseline;
 }
 .logo {
   position: absolute;
   top: 5px;
-  left: 10px;
+  left: 30px;
 }
 .topmenu {
   position: absolute;
@@ -51,6 +53,7 @@ header img {
   width: 600px;
   position: absolute;
   bottom: 0px;
+  left: 10%;
 }
 .headerText {
   position: absolute;
@@ -111,19 +114,23 @@ header img {
 }
 .becomeTutor_inner {
   width: 1280px;
-  height: 400px;
+  height: 380px;
   margin: 0 auto;
   padding: 15px;
+
+
+}
+.becomeTutor_inner article {
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
 }
 .becomeLeft {
   width: 480px;
 }
-.becomeImg {
-  background-image: url('images/remain3.png');
-  
+.becomeImg img{
+  width: 480px;
+  float: right;
 }
 /* session 3 : FAQs */
 
@@ -136,12 +143,11 @@ header img {
   padding: 15px;
 }
 .faq-inner {
-  width: 750px;
+  width: 1280px;
 }
 .faq-inner h2 {
   margin-top: 15px;
 }
-.accordion {}
 .accordion-item {
   background-color: #f8f8f8;
   padding: 15px 25px;
@@ -154,7 +160,7 @@ header img {
   /* padding-bottom: 15px; */
 }
 .accordion-item .title:after {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free"; 
   content: \f107;
   float: right;
   margin-top: 4px;
@@ -211,6 +217,12 @@ footer a {
   width: 600px;
   display: flex;
   justify-content: space-between;
+}
+.footericons{
+  display: flex;
+}
+.footericons > img{
+  width: 40px;
 }
 .miniFooter {
   display: flex;
