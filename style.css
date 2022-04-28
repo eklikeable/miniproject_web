@@ -3,7 +3,8 @@
 
 body {
   margin: 0 auto;
-  padding: 0;
+  line-height: 1.6em;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -33,7 +34,6 @@ nav {
   position: absolute;
   top: 20px;
   right: 100px;
-  display: inline-block;
 }
 .topRightMenu a {
   border: 1px solid black;
@@ -73,20 +73,28 @@ header img {
 }
 /* Main */
 /* session 1 */
+.main-inner {
+  margin: 0 auto;
+  position: relative;
+}
+
 #howItWorks {
   background-color: #f8f4ef;
-  height: 480px;
-
+}
+.howItWorks_inner {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.box-container{
+  display: flex;
+  justify-content: center;
 }
 
-.boxall {
-  align-content: center;
-
-}
 .box {
   border-style: none;
   background-color: #fff;
-  width: 230px;
+  width: 300px;
   height: 250px;
   text-align: center;
   margin: 10px;
@@ -100,50 +108,45 @@ header img {
 /* session 2 */
 #becomeTutor {
   background-color: #f8f4ef;
-  height: 350px;
-  position: relative;
-  align-content: center;
+}
+.becomeTutor_inner {
+  width: 1280px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+
 }
 .becomeLeft {
   width: 480px;
-  align-items: center;
-  position:absolute;
-  top: 15%;
-  left: 15%;
-  
 }
 .becomeImg {
-  position: absolute;
-  top: 15%;
-  right: 0px;
-  width: 600px;
-  height: 250px;
-  background-image: url('images/main2.png');
-  background-size: 600px;
-  background-position: 100% 30%;
-  border-radius: 10% 0 0 10%;
+  background-image: url('images/remain3.png');
+  
 }
 /* session 3 : FAQs */
 
 #faq {
   background-color: #f8f8f8;
-  height: 100vh;
-  margin-top: 0px;
+}
+.faq-inner1 {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 15px;
 }
 .faq-inner {
   width: 750px;
-  margin: auto;
 }
-.faq-inner h1 {
-  text-align: center;
-  margin-top: 0;
+.faq-inner h2 {
+  margin-top: 15px;
 }
 .accordion {}
 .accordion-item {
   background-color: #f8f8f8;
   padding: 15px 25px;
-  border-radius: 20px;
-  box-shadow: 0 0 25px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
   margin-bottom: 16px;
 }
 .accordion-item .title {
@@ -182,17 +185,35 @@ header img {
 /* footer */
 footer {
   background-color: #273343;
-  height: 300px;
-
 }
-footer div {
-  margin: 30px 0px 0px 70px;
-  width: 200px;
-  display: inline-block;
-  align-items: center;
-  vertical-align: top;
+.footer_inner{
+  width: 1280px;
+  margin: 0 auto;
+  color: white;
 }
 footer a {
   color: white;
 }
-
+.footerbox_set {
+  display: flex;
+  justify-content: space-between;
+}
+.footerbox {
+  display: inline-block;
+  margin: 20px 0px 40px 0px;
+  /* width: 180px; */
+  vertical-align: top;
+}
+.footerbox a:hover {
+  text-decoration: underline;
+}
+.footerbox_left{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.miniFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 30px 0px;
+}
